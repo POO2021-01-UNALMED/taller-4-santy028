@@ -12,7 +12,7 @@ public class Asignatura {
        // this(0);
     }
 
-    Asignatura(int codigoInterno,String n) {
+    Asignatura(int codigoInterno,String nombre) {
         this("Sin nombre", codigoInterno, 0);
     }
 
@@ -30,10 +30,10 @@ public class Asignatura {
         this.codigoExterno = codigoExterno;
     }
 
-    void cambiarDatos(int codigoInterno, int codigoExterno, String n) {
+    void cambiarDatos(int codigoInterno, int codigoExterno, String nombre) {
         this.codigoInterno = codigoInterno;
         this.codigoExterno = codigoExterno;
-        this.nombre = n;
+        this.nombre = nombre;
     }
 
     void cambiarDatos(int codigoInterno, String nombre) {
